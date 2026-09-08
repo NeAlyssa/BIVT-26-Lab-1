@@ -7,7 +7,14 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            answer = true;
+            if (d > 0)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
             // end
 
             return answer;
